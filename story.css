@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  header,
+  nav,
+  main,
+  footer {
+    padding: 10px;
+    background-color: rgb(242, 216, 49);
+    
+    color: #fff;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+main{
+    padding: 20%;
+}
+    
+main p {
+    background-color: rgb(242, 216, 49);
+}
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
